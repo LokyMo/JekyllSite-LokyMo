@@ -1,2 +1,25 @@
 // Import Core Clean Blog SCSS
 @import "../assets/vendor/startbootstrap-clean-blog/scss/clean-blog.scss";
+
+footer .list-inline {
+  margin-bottom: 50px;
+}
+
+footer p {
+    font-size: .875rem;
+    margin: 1em 0;
+}
+
+.qr-code {
+  display: block;
+  margin: 0 auto;
+}
+
+.product {
+  display: flex;
+  margin: 3rem auto;
+}
+
+.product:nth-child(even) {
+  flex-direction: row-reverse;
+}

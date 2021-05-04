@@ -1,0 +1,26 @@
+---
+layout: page
+title: Products
+title-cn: 产品
+description:
+background:
+products:
+- name: Thing
+  src: https://via.placeholder.com/300
+  desc: Lorem ipsum dolor sit amet
+- name: Thing 2
+  src: https://via.placeholder.com/350
+  desc: Lorem ipsum dolor sit amet
+---
+
+<section class="products">
+  {% for product in page.products %}
+    <div class="product">
+      <img src="{{product.src}}" alt="{{product.name}}">
+      <div class="product-info">
+        <h3>{{product.name}}</h3>
+        <p>{{product.desc}}</p>
+      </div>
+    </div>
+  {% endfor %}
+</section>

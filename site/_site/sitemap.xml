@@ -37,6 +37,9 @@
 <loc>http://0.0.0.0:8080/</loc>
 </url>
 <url>
+<loc>http://0.0.0.0:8080/products.html</loc>
+</url>
+<url>
 <loc>http://0.0.0.0:8080/posts/page2/</loc>
 </url>
 </urlset>
