@@ -114,9 +114,11 @@ footer .list-inline { margin-bottom: 50px; }
 
 footer p { font-size: .875rem; margin: 1em 0; }
 
-.qr-code { display: block; margin: 0 auto; }
+.qr-code { display: block; margin: 0 auto; animation-duration: 1.2s; }
 
-.product { display: flex; margin: 3rem auto; }
+.product { display: flex; flex-basis: auto; width: 30%; height: auto; margin: 0 auto; align-items: flex-start; justify-content: space-around; column-gap: 2px; margin-top: 2em; }
+
+body { font-size: 16px; color: #212529; font-family: 'Lora', 'Times New Roman', serif; }
 
 .product:nth-child(even) { flex-direction: row-reverse; }
 

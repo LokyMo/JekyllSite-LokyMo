@@ -5,18 +5,18 @@ title-cn: 产品
 description:
 background:
 products:
-- name: Thing
-  src: https://via.placeholder.com/300
-  desc: Lorem ipsum dolor sit amet
-- name: Thing 2
-  src: https://via.placeholder.com/350
-  desc: Lorem ipsum dolor sit amet
+- name: Songlin Black Card 
+  src: Yafeng.pic.jpg
+  desc: 松林黑卡使用优质的木浆和环保染料，表面颜色均匀平整。
+- name: Koehler white card
+  src: Ko.jpg
+  desc: 科勒极致白卡是高纯度的优质白度；表面自然精致，纸质坚挺耐用，抗老化，可永久保存；通过欧盟ISEGA认证，可用于食品级包装；适用广泛，应用于各种印刷包装、文具、出版和广告产品上。
 ---
 
 <section class="products">
   {% for product in page.products %}
     <div class="product">
-      <img src="{{product.src}}" alt="{{product.name}}">
+      <img src="{{product.src}}" alt="{{product.name}}style="width:30%; height:auto>
       <div class="product-info">
         <h3>{{product.name}}</h3>
         <p>{{product.desc}}</p>
